@@ -1,0 +1,92 @@
+Unidades
+As unidades no KingsAge são tropas militares que o jogador pode pesquisar e treinar. Ambas as acções necessitam de recursos e colonos. Se o jogador tem tropas, ele pode defender-se, pode defender outros jogadores assim como atacar e pilhar aldeias abandonadas. Unidades especiais também têm habilidades adicionais, como os espiões ou os condes que podem até mesmo assumir permanentemente aldeias inimigas (conquistar).
+
+Pesquisa
+
+Para que o jogador possa ter tropas, ele tem que pesquisar o tipo de tropa que pretende. Para que possa fazer isso, o jogador precisa de cumprir alguns requisitos e gastar recursos no quartel. A pesquisa em si dura um determinado período de tempo, que é reduzido com o aumento do nível do quartel.
+
+Aqui está uma visão geral dos custos da pesquisa e os tempos básicos. O tempo de pesquisa é reduzido aqui pelo nível do quartel:
+
+Unidade				
+ Milícia do fazendeiro	10	10	10	0:00:10
+ Templário	40	40	60	0:02:00
+ Escudeiro	20	20	30	0:01:00
+ Guerreiro	720	500	630	1:18:40
+ Arqueiro	480	570	630	2:21:36
+ Espião	570	630	610	1:25:30
+ Cruzado	2100	1800	2400	2:33:54
+ Cavaleiro negro	3500	3600	3700	4:37:01
+ Aríete	1800	1400	1200	1:48:20
+ Catapulta	3000	2500	1600	3:36:40
+Treinar
+
+Pesquisar tropas, podem ser treinadas directamente nos quartéis. Cada unidade tem o seu tempo de treino assim como os seus custos. Após o tempo expirar, o jogador é creditado com a tropa.
+
+O jogador pode colocar várias tropas e também diversos tipos de unidades em lista de espera. As tropas são então treinadas em sequência. A tabela a seguir mostra os custos dos treinamentos e horas. O tempo de treinamento é reduzido, dependendo do nível do quartel.
+
+O conde também aqui é uma excepção, como o conde tem necessidades especiais sob a forma de armadura dourada e também pode ser treinado na residência.O tempo de treino do conde é determinado pela residência (nível).
+
+Unidade					
+ Milícia do fazendeiro	3	10	7	1	0:00:18
+ Templário	30	10	80	1	0:01:30
+ Escudeiro	10	20	30	1	0:01:10
+ Guerreiro	40	50	50	1	0:01:20
+ Arqueiro	80	160	80	1	0:01:40
+ Espião	40	60	60	2	0:03:00
+ Cruzado	100	100	300	4	0:07:00
+ Cavaleiro negro	100	300	500	6	0:10:00
+ Aríete	100	500	200	5	0:23:20
+ Catapulta	200	600	200	8	0:33:20
+ Conde	100000	120000	80000	100	3:20:00
+Expulsar
+
+As tropas que já foram construídas podem ser demitidas por meio do botão "demitir" no menu de comando nos quartéis. O jogador não receberá quaisquer recursos de volta, mas libertará o número correspondente de colonos.
+
+Unidades em Comparação
+
+Aqui está um resumo dos valores de batalha e os custos das tropas:
+
+Unidade	Força atacante	Defesa infantaria	Cavalaria de defesa	Defesa arqueiros	Mobilidade	Capacidade de Carga
+ Milícia do fazendeiro	20	40	30	5	7	5
+ Templário	100	300	100	200	7	15
+ Escudeiro	50	100	200	300	6	25
+ Guerreiro	350	70	50	50	6	10
+ Arqueiro	150	400	150	100	6	10
+ Espião	1	10	5	7	3	0
+ Cruzado	900	200	300	300	3	80
+ Cavaleiro negro	600	1500	1000	1000	4	50
+ Aríete	100	100	200	20	10	0
+ Catapulta	500	400	100	200	10	0
+ Conde	100	300	100	200	12	0
+
+
+Símbolo	Nome	Explicação
+	
+Força atacante
+
+A força de ataque mostra a força de ataque das unidades.
+
+	
+Defesa infantaria
+
+Mostra o valor da defesa contra soldados de infantaria.
+
+	
+Cavalaria de defesa
+
+Mostra o valor da defesa contra cavaleiros.
+
+	
+Defesa arqueiros
+
+Mostra o valor da defesa contra arqueiros
+
+	
+Mobilidade
+
+Quanto mais alto o valor mais lentas são as unidades. (Indicação em minutos por campo)
+
+	
+Capacidade de Carga
+
+Mostra quantos recursos as suas unidades estão a carregar e quantos poderão trazer para a sua vila
