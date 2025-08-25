@@ -1,6 +1,8 @@
 import { generateTextWithRAG } from "./OpenAi/api-openai.mjs";
-import { ChunkText } from "./OpenAi/knowledgeBaseSetup.mjs";
+import { ChunkMultipleFiles } from "./OpenAi/knowledgeBaseSetup.mjs";
 import readline from 'readline';
+import fs from 'fs';
+import path from 'path';
 
 const rl = readline.createInterface({
     input: process.stdin,
@@ -13,8 +15,16 @@ function askQuestion(question) {
     });
 }
 
+function getAllFiles(folderPath) {
+    return fs
+        .readdirSync(folderPath)
+        .filter(file => file.endsWith(".txt"))
+        .map(file => path.join(folderPath, file));
+}
+
 async function main() {
-    const knowledgeBase = await ChunkText('./knowledge_base/knowledgeBase.txt');
+    const files = getAllFiles('./knowledge_base');
+    const knowledgeBase = await ChunkMultipleFiles(files);
 
     while (true) {
         try {

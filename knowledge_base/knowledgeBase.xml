@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<KnowledgeBase>
+    <Document id="1" type="txt">
+        <Title>Introdução ao Sistema</Title>
+        <Path>./knowledge_base/knowledgeBase1.txt</Path>
+        <Content>
+            O sistema foi projetado para lidar com múltiplos tipos de documentos.
+        </Content>
+    </Document>
+
+    <Document id="2" type="pdf">
+        <Title>Manual do Usuário</Title>
+        <Path>./knowledge_base/manual.pdf</Path>
+        <Content>
+            Este manual descreve como utilizar todas as funcionalidades do software.
+        </Content>
+    </Document>
+
+    <Document id="3" type="md">
+        <Title>Notas de Versão</Title>
+        <Path>./knowledge_base/release-notes.md</Path>
+        <Content>
+            # Versão 1.0
+            - Funcionalidade A adicionada
+            - Correção do bug B
+        </Content>
+    </Document>
+</KnowledgeBase>

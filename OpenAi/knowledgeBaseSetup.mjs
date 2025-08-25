@@ -1,5 +1,4 @@
-import fs from 'fs';
-import path from 'path';
+import { Readers } from './readers.mjs';
 import { openai } from '@ai-sdk/openai';
 import { embedMany } from 'ai';
 import dotenv from 'dotenv';
@@ -8,12 +7,24 @@ dotenv.config();
 
 let knowledgeBase = [];
 
-export async function ChunkText(file) {
-    if (knowledgeBase.length > 0) return knowledgeBase;
+export async function ClearKnowledgeBase() {
+    knowledgeBase = [];
+}
 
-    const essay = fs.readFileSync(path.join(file), 'utf8');
+export async function ChunkMultipleFiles(files) {
+    await ClearKnowledgeBase();
 
-    const chunks = essay.split('.').map(chunk => chunk.trim()).
+    for (const file of files) {
+        await ChunkText(file);
+    }
+
+    return knowledgeBase;
+}
+
+async function ChunkText(file) {
+    const content = await ReadFiles(file);
+
+    const chunks = content.split('.').map(chunk => chunk.trim()).
         filter(chunk => chunk.length > 0 && chunk !== '\n');
 
     const { embeddings } = await embedMany({
@@ -29,4 +40,14 @@ export async function ChunkText(file) {
     });
 
     return knowledgeBase;
+}
+
+async function ReadFiles(file) {
+    const reader = Readers.find(r => r.canHandle(file));
+
+    if (!reader) console.warn(`Nenhum reader encontrado para: ${file}`);
+
+    const content = await reader.read(file);
+
+    return content;
 }

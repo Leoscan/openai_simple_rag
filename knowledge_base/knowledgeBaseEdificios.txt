@@ -1,0 +1,37 @@
+Edifícios
+
+Edifícios são necessários se quiseres progredir no jogo. Entre outras coisas, eles produzem recursos e outras coisas, por exemplo, construção de tropas através do quartel ou negociação no mercado.
+
+Estão disponíveis os seguintes edifícios:
+Castelo Castelo
+Pedreira Pedreira
+Serraria Serraria
+Mina de Ferro Mina de Ferro
+Armazém Armazém
+Esconderijo Esconderijo
+Moinho Moinho
+Quartel Quartel
+Muralha Muralha
+Estábulo Estábulo
+Mercado Mercado
+Alquimista Alquimista
+Mansão Mansão
+Joalheiro Joalheiro
+Memorial Memorial
+
+
+Castelo: O castelo é o coração da povoação. Confere aos seus cidadãos segurança em tempos de paz e é também o lugar onde artesãos e construtores trabalham em conjunto para construírem novos edifícios ou aumentarem os já existentes. Quanto maior for o castelo, mais construtores lá poderão trabalhar. Isso também significa que os edifícios podem ser construídos ainda mais rapidamente. Assim que o castelo tiver sido evoluído até ao nível 15 e que a pesquisa ter sido concluída, já poderás demolir edifícios.
+		
+Pedreira: Na pedreira rochas são esculpidas e transformadas em blocos de pedra. Esses blocos então podem ser usados para construir edifícios ou para a produção de tropas no quartel. Quanto mais expandes a tua pedreira mais pedreiros podes empregar e mais rápido transformarás essas rochas em blocos de pedra.
+		
+Quartel: No quartel reinam duras regras e um tratamento ainda mais rigoroso a fim de ensinar disciplina e táctica. Os guerreiros são treinados aqui para servir lealmente o seu Rei. Também podes envia-los para batalhas, onde permanecerão ao teu lado com toda a sua bravura e glória. Quanto mais aumentares o teu quartel, mais avançadas serão as tuas unidades.
+
+Serraria: Sendo preciso uma matéria base para escudos ou armas, a madeira é a matéria-prima necessária para a maioria das tuas povoações. Na serraria, as árvores dos bosques circundantes são processadas e disponibilizadas aos construtores e ferreiros. Quanto mais evoluída for a tua serraria, mais trabalhadores poderás empregar para transformar madeira em bruto.
+
+Mina de Ferro: Mesmo os melhores guerreiros não podem resistir a uma batalha sem uma boa armadura e espadas afiadas. Na mina de ferro , é retirado o minério da terra e processado. Se expandires a tua mina poderás empregar mais trabalhadores que também poderão trabalhar mais rapidamente.
+
+Armazém: No armazém as matérias-primas estão protegidas do vento e do tempo. Certifica-te que tens sempre espaço suficiente, caso contrário, serão perdidas matérias-primas importantes. Infelizmente os teus produtos não estão seguros contra pilhagens - para tal, precisas de um esconderijo.
+
+Esconderijo: Os colonos nem sempre podem defender as suas casas. Essa é a razão pela qual guardam os seus tesouros em locais secretos. Esses esconderijos estão a salvo das mãos dos ladrões e dos olhos dos espiões.
+
+Moinho: Os frutos do campo são moídos no moinho. A farinha permite ao moinho aprovisionar as suas povoações, de forma a que nenhum de seus cidadãos no reino tenha de passar fome. No entanto, todos os teus trabalhadores e tropas têm de ser alimentados. Então, só podes empregar trabalhadores que possas alimentar.
