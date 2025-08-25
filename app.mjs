@@ -1,5 +1,5 @@
 import { generateTextWithRAG } from "./OpenAi/api-openai.mjs";
-import { ChunkMultipleFiles } from "./OpenAi/knowledgeBaseSetup.mjs";
+import { CreateKnowledgeBaseFromMultipleFiles } from "./OpenAi/knowledgeBaseSetup.mjs";
 import readline from 'readline';
 import fs from 'fs';
 import path from 'path';
@@ -24,7 +24,7 @@ function getAllFiles(folderPath) {
 
 async function main() {
     const files = getAllFiles('./knowledge_base');
-    const knowledgeBase = await ChunkMultipleFiles(files);
+    const knowledgeBase = await CreateKnowledgeBaseFromMultipleFiles(files);
 
     while (true) {
         try {

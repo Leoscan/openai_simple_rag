@@ -5,7 +5,7 @@ import { cosineSimilarity, embed, generateText } from 'ai';
 dotenv.config();
 
 export async function generateTextWithRAG(input, knowledgeBase) {
-    const context = await GenerateContext(input, knowledgeBase);
+    const context = await generateContext(input, knowledgeBase);
     return generalTextCreation(input + "\n\n context: " + context)
 }
 
@@ -19,7 +19,7 @@ export async function generalTextCreation(input) {
     return text;
 }
 
-export async function GenerateContext(input, knowledgeBase) {
+export async function generateContext(input, knowledgeBase) {
     const { embedding } = await embed({
         model: openai.textEmbeddingModel(process.env.OPENAI_EMBEDDING_MODEL),
         value: input,
